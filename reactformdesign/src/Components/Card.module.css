@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+.card {
+    max-width: 350px;
+   background-color:rgb(252, 240, 226);
+   margin: 0;
+   padding: 0;
+}
+

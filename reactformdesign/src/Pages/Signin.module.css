@@ -1,0 +1,7 @@
+.box {
+    display: grid;
+    place-items: center  ;
+}
+img {
+    height: 300px;
+}

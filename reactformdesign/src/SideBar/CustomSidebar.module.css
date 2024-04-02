@@ -1,0 +1,40 @@
+.sidebar {
+    width: 270px;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    position: sticky;
+    top: 0;
+    flex: 1;
+   
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+        height: 100%; /* Set height to 100% for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100%;
+        height: auto; /* Reset height on smaller screens */
+        position: static;
+        
+    }
+}
+
+@media (min-width: 992px) {
+    .sidebar {
+        width: 270px;
+        height: 100vh; /* Ensure height remains 100% of viewport height on larger screens */
+    }
+}
+
+.sidebarContainer {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    min-height: '100vh';
+    display: flex;
+  flex-direction: column;
+  
+}
